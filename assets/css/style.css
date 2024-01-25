@@ -17,12 +17,37 @@ body {
     padding-right: 125px;
 }
 
-.ci {
+.car-img {
     height: 692px;
 }
 
-/* #slide {
+#slide {
     height: 100%;
     width: 100%;
-} */
+}
 
+@media (max-width: 768px) {
+    #nav {
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: right;
+    }
+    #nav:hover {
+        background-color: var(--black);
+        opacity: 75%;
+    }
+
+    /* CAROUSEL*/
+    .car-img {
+        height: 320px auto;
+    }
+
+    #slide {
+        height: auto;
+        width: 320px auto;
+    }
+
+    .car-control {
+        height: 220px;
+    }
+}
