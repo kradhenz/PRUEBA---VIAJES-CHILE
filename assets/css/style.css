@@ -10,6 +10,7 @@
 
 body {
     background-color: var(--black);
+    color: var(--white);
 }
 
 #nav {
@@ -26,12 +27,42 @@ body {
     width: 100%;
 }
 
+/* FOOTER */
+footer {
+    background-color: var(--cian);
+    color: white;
+}
+
+footer h2,
+#foot-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer #foot-icon {
+    text-align: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+footer a {
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+/*MEDIAS QUERY*/
 @media (max-width: 768px) {
     #nav {
         padding-left: 25px;
         padding-right: 25px;
         text-align: right;
     }
+
     #nav:hover {
         background-color: var(--black);
         opacity: 75%;
@@ -47,7 +78,7 @@ body {
         width: 320px auto;
     }
 
-    .car-control {
-        height: 220px;
+    .car-slide {
+        height: 240px;
     }
 }
