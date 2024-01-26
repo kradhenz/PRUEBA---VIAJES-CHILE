@@ -12,6 +12,7 @@
 body {
     background-color: var(--black);
     color: var(--white);
+    font-family: 'Raleway', sans-serif;
 }
 
 #nav {
@@ -100,6 +101,7 @@ footer {
     #hl-card img {
         height: 150px;
     }
+
     /* CONTACT */
     #contact {
         padding: 0 125px 25px;
