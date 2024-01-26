@@ -5,7 +5,7 @@
 :root {
     --black: #000;
     --white: #fff;
-    --cian: #00e1ff;
+    --red: #b22020;
 }
 
 body {
@@ -14,8 +14,9 @@ body {
 }
 
 #nav {
-    padding-left: 125px;
-    padding-right: 125px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right;
 }
 
 .car-img {
@@ -29,53 +30,52 @@ body {
 
 /* FOOTER */
 footer {
-    background-color: var(--cian);
-    color: white;
-    padding-left: 250px;
-}
-
-#footer h3,
-#footer article {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#footer article {
-    text-align: left;
-    width: 40%;
-    margin-left: 450px;
+    background-color: var(--red);
 }
 
 #footer a {
     color: white;
-    margin: 0px 10px;
     text-decoration: none;
 }
 
 /*MEDIAS QUERY*/
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #nav {
-        padding-left: 25px;
-        padding-right: 25px;
-        text-align: right;
+        padding-left: 125px;
+        padding-right: 125px;
     }
-
-    #nav:hover {
-        background-color: var(--black);
-        opacity: 75%;
-    }
-
-    /* CAROUSEL*/
+    
     .car-img {
-        height: 320px auto;
+        height: 694px;
     }
-
+    
     #slide {
-        height: auto;
-        width: 320px auto;
+        height: 100%;
+        width: 100%;
     }
-
-    .car-slide {
-        height: 240px;
+    
+    /* FOOTER */
+    footer {
+        background-color: var(--red);
+        color: white;
+        padding-left: 250px;
+    }
+    
+    #footer h3,
+    #footer article {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    #footer article {
+        text-align: left;
+        width: 40%;
+        margin-left: 450px;
+    }
+    
+    #footer a {
+        color: white;
+        margin: 0px 10px;
+        text-decoration: none;
     }
 }
