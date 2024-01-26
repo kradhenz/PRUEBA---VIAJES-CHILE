@@ -31,28 +31,25 @@ body {
 footer {
     background-color: var(--cian);
     color: white;
+    padding-left: 250px;
 }
 
-footer h2,
-#foot-icon {
+#footer h3,
+#footer article {
     display: inline-block;
     vertical-align: middle;
 }
 
-footer #foot-icon {
+#footer article {
     text-align: left;
     width: 40%;
-    margin-left: 40px;
+    margin-left: 450px;
 }
 
-footer a {
+#footer a {
     color: white;
     margin: 0px 10px;
     text-decoration: none;
-}
-
-footer p {
-    margin-top: 20px;
 }
 
 /*MEDIAS QUERY*/
