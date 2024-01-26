@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="./assets/img/viajes.svg">
+
     <!-- BOOTSTRAP CSS 5.3.2-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -12,10 +14,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/5025c3e51d.js" crossorigin="anonymous"></script> <!-- CSS STYLES -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" type="image/svg" href="./assets/img/viajes.svg">
+    <script src="https://kit.fontawesome.com/5025c3e51d.js" crossorigin="anonymous"></script>
 
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>PRUEBA VIAJES CHILE</title>
 </head>
 
@@ -71,40 +73,44 @@
         </section>
     </section>
     <!-- ABOUT US -->
-    <section id="about-us" class="container-fluid text-center d-none d-md-block">
+    <section id="about-us" class="container-fluid d-none d-md-block">
         <h2 class="text-center fw-light py-4 border-bottom border-dark">¿QUIÉNES SOMOS?</h2>
-        <section class="row text-left">
-            <!-- CARD 1 -->
-            <section class="col-sm-3 mb-3 mb-sm-0">
+        <section id="about-cards" class="row lh-sm">
+            <!-- AU-CARD 1 -->
+            <section class="col-sm-4 mb-3 mb-sm-0">
                 <article class="card">
-                    <article class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid id magnam
-                            ipsam accusamus ipsa quasi autem alias aut atque reiciendis, ullam, ducimus esse amet
-                            tempora consequuntur voluptate expedita minus. Temporibus.</p>
-                    </article>
+                    <i class="fa-solid fa-plane fa-2x text-center"></i>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni rerum
+                        sit harum voluptates itaque blanditiis, laborum delectus fugiat repellendus autem nulla porro
+                        distinctio expedita id inventore nisi totam quas.
+                        Quod nostrum ipsam asperiores corporis quo tenetur eos consequuntur veniam, aliquam cumque earum
+                        placeat quibusdam dolorem totam nam omnis porro ipsa officia facilis. Dolorem libero deserunt,
+                        veritatis esse numquam placeat.</p>
                 </article>
             </section>
-            <!-- CARD 2 -->
-            <section class="col-sm-3 mb-3 mb-sm-0">
+            <!-- AU-CARD 2 -->
+            <section class="col-sm-4 mb-3 mb-sm-0">
                 <article class="card">
-                    <article class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid id magnam
-                            ipsam accusamus ipsa quasi autem alias aut atque reiciendis, ullam, ducimus esse amet
-                            tempora consequuntur voluptate expedita minus. Temporibus.</p>
-                    </article>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eveniet maiores
+                        iusto sed suscipit at doloremque adipisci excepturi eius in amet ab nemo, sint, assumenda,
+                        deserunt corrupti! Sapiente, molestiae ex.
+                        Incidunt voluptatem iusto maiores, quae ex, nam beatae magni dignissimos, nesciunt expedita
+                        corporis consectetur impedit ducimus rerum exercitationem! Quo quae nostrum cum numquam tenetur.
+                        Est sequi quis libero animi? Velit.</p>
+                    <i id="plane-icon" class="fa-solid fa-triangle-exclamation
+                    fa-2x text-center"></i>
                 </article>
             </section>
-            <!-- CARD 3 -->
-            <section class="col-sm-3 mb-3 mb-sm-0">
+            <!-- AU-CARD 3 -->
+            <section class="col-sm-4 mb-3 mb-sm-0">
                 <article class="card">
-                    <article class="card-body">
-                        <h5 class="card-title">Lorem, ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid id magnam
-                            ipsam accusamus ipsa quasi autem alias aut atque reiciendis, ullam, ducimus esse amet
-                            tempora consequuntur voluptate expedita minus. Temporibus.</p>
-                    </article>
+                    <i class="fa-solid fa-route fa-2x text-center"></i>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, alias
+                        nostrum iure suscipit corrupti magni labore amet ratione animi quibusdam odio sunt quasi.
+                        Eligendi ducimus ut eveniet. Corporis, earum amet!
+                        Soluta totam animi veritatis aliquid similique. Illum quasi accusantium ipsam nesciunt
+                        asperiores, minima consequuntur placeat aliquid voluptate atque earum quod amet ipsum nihil
+                        officia harum libero, facilis mollitia quaerat animi.</p>
                 </article>
             </section>
         </section>
@@ -113,9 +119,9 @@
     <section id="highlights" class="container-fluid py-3">
         <h2 class="text-center fw-light py-4 border-bottom border-dark">DESTACADOS</h2>
         <section class="row gy-4 pt-2 px-4 fw-light">
-            <!-- CARD 1 -->
+            <!-- HL-CARD 1 -->
             <article class="col-12 col-sm-3 col-lg-3 box1">
-                <article class="card">
+                <article id="hl-card" class="card">
                     <img src="./assets/img/card1.jpg" class="card-img-top img-fluid" alt="mountain">
                     <article class="card-body">
                         <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -124,9 +130,9 @@
                     </article>
                 </article>
             </article>
-            <!-- CARD 2 -->
+            <!-- HL-CARD 2 -->
             <article class="col-12 col-sm-6 col-lg-3 box2">
-                <article class="card">
+                <article id="hl-card" class="card">
                     <img src="./assets/img/card2.jpg" class="card-img-top img-fluid" alt="lagoon">
                     <article class="card-body">
                         <h5 class="card-title">Consectetur adipisicing elit
@@ -136,9 +142,9 @@
                     </article>
                 </article>
             </article>
-            <!-- CARD 3 -->
+            <!-- HL-CARD 3 -->
             <article class="col-12 col-sm-6 col-lg-3 box3">
-                <article class="card">
+                <article id="hl-card" class="card">
                     <img src="./assets/img/card3.jpg" class="card-img-top img-fluid" alt="river">
                     <article class="card-body">
                         <h5 class="card-title">Eligendi architecto modi accusantium</h5>
@@ -147,9 +153,9 @@
                     </article>
                 </article>
             </article>
-            <!-- CARD 4 -->
+            <!-- HL-CARD 4 -->
             <article class="col-12 col-sm-6 col-lg-3 box4">
-                <article class="card">
+                <article id="hl-card" class="card">
                     <img src="./assets/img/card4.jpg" class="card-img-top img-fluid" alt="forest">
                     <article class="card-body">
                         <h5 class="card-title">Voluptate ullam eligendi corrupti</h5>

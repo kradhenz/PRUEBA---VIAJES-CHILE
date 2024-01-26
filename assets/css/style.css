@@ -20,21 +20,12 @@ body {
     text-align: right;
 }
 
-<<<<<<< HEAD
-.car-img {
-    height: 692px;
-}
-
-#slide {
-    height: 100%;
-    width: 100%;
-=======
 #nav:hover {
     background-color: var(--black);
     opacity: 85%;
 }
 
-.card {
+#hl-card {
     background-color: var(--red);
     color: var(--white);
     border-color: var(--border);
@@ -44,7 +35,6 @@ body {
 #send {
     background-color: var(--red);
     border-color: var(--red);
->>>>>>> development
 }
 
 /* FOOTER */
@@ -59,6 +49,7 @@ footer {
 
 /*MEDIAS QUERY*/
 @media (min-width: 768px) {
+    /* NAVBAR*/
     #nav {
         padding-left: 125px;
         padding-right: 125px;
@@ -73,6 +64,28 @@ footer {
         width: 100%;
     }
     
+    /* ABOUT US*/
+    #about-cards {
+        padding: 25px 125px 0;
+    }
+
+    .card {
+        background-color: var(--black);
+        color: var(--white);
+    }
+    
+    .card i {
+        background-color: var(--red);
+        color: var(--white);
+        padding: 5px 0 5px;
+    }
+
+    /* HIGHLIGHTS*/
+
+
+    /* CONTACT */
+
+
     /* FOOTER */
     footer {
         background-color: var(--red);
