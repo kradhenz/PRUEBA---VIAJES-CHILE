@@ -25,6 +25,10 @@ body {
     opacity: 85%;
 }
 
+#hls-cards {
+    padding-top: 15px;
+}
+
 #hl-card {
     background-color: var(--red);
     color: var(--white);
@@ -65,8 +69,12 @@ footer {
     }
     
     /* ABOUT US*/
+    #about-us {
+        padding: 0 125px;
+    }
+
     #about-cards {
-        padding: 25px 125px 0;
+        padding-top: 25px;
     }
 
     .card {
@@ -81,8 +89,17 @@ footer {
     }
 
     /* HIGHLIGHTS*/
+    #highlights {
+        padding: 0px 125px;
+    }
 
+    #hls-cards {
+        padding-top: 25px;
+    }
 
+    #hl-card img {
+        height: 150px;
+    }
     /* CONTACT */
 
 
