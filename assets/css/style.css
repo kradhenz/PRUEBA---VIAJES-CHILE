@@ -101,13 +101,14 @@ footer {
         height: 150px;
     }
     /* CONTACT */
-
+    #contact {
+        padding: 0 125px 25px;
+    }
 
     /* FOOTER */
-    footer {
+    #footer {
         background-color: var(--red);
         color: white;
-        padding-left: 250px;
     }
     
     #footer h3,
@@ -118,8 +119,7 @@ footer {
     
     #footer article {
         text-align: left;
-        width: 40%;
-        margin-left: 450px;
+        padding-left: 350px;
     }
     
     #footer a {
