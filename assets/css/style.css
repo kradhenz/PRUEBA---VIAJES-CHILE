@@ -6,12 +6,12 @@
     --black: #000;
     --white: #fff;
     --red: #b22020;
+    --border: #808080;
 }
 
 body {
     background-color: var(--black);
     color: var(--white);
-    font-family: 'Raleway', sans-serif;
 }
 
 #nav {
@@ -22,10 +22,16 @@ body {
 
 #nav:hover {
     background-color: var(--black);
-    opacity: 75%;
+    opacity: 85%;
 }
 
-/* CONTACT FORM */
+.card {
+    background-color: var(--red);
+    color: var(--white);
+    border-color: var(--border);
+}
+
+/* CONTACT FORM*/
 #send {
     background-color: var(--red);
     border-color: var(--red);
