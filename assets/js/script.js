@@ -8,3 +8,11 @@ $(window).scroll(function(){
     }
 })
 
+// CONTACT ALERT
+$("#send").click(function () {
+    alert("El mensaje fue enviado exitosamente");
+})
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
