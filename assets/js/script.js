@@ -4,7 +4,7 @@ $(window).scroll(function () {
     if (window.innerWidth < 768) {
         $('#nav').toggleClass('scrolled', $(this).scrollTop() > 100);
     } else {
-        $('#nav').toggleClass('scrolled', $(this).scrollTop() > 600);
+        $('#nav').toggleClass('scrolled', $(this).scrollTop() > 500);
     }
 });
 
