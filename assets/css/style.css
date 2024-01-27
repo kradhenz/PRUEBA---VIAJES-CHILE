@@ -9,6 +9,10 @@
     --border: #808080;
 }
 
+html {
+    scroll-behavior: smooth scroll;
+}
+
 body {
     background-color: var(--black);
     color: var(--white);
